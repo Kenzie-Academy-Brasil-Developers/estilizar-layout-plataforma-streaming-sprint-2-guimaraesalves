@@ -70,7 +70,10 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		margin-bottom: 5px;
 	}
 
-	
+	figure {
+		width: 186px;
+		margin: 0;
+	}
 
 	figcaption{
 		color: transparent;
@@ -145,13 +148,14 @@ h3 {
 		flex-basis: 1;		
 		justify-content: space-between;
 		align-self: start;
+		margin: 0;
 		
 	}
 	li {
 		list-style-type: none;
 		width:186px;
-		padding: 40px;
-		max-width: 858px;
+		padding: 20px;
+		
 		
 	  }
 
