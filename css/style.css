@@ -136,7 +136,7 @@ h3 {
 
 	.box {
 		max-width: 858px;	
-		align-items: stretch;	
+		align-items: center;	
 	}
 
 	
@@ -149,7 +149,6 @@ h3 {
 		justify-content: space-between;
 		align-self: start;
 		margin: 0;
-		width: 858px;
 		
 		
 	}
