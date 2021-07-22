@@ -72,7 +72,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 	figure {
 		width: 186px;
-		margin: 0;
+		margin: 15px;
 	}
 
 	figcaption{
@@ -97,8 +97,7 @@ button {
 	color: #1D307F(57, 71, 199);
 	background-color: #1D307F;
 	border: 1px solid #1D307F;
-	display: flex;
-	
+	display: flex;	
 	font-size: 2.5vw;
 	
 	
@@ -136,7 +135,8 @@ h3 {
 }
 
 	.box {
-		
+		max-width: 858px;	
+		align-items: stretch;	
 	}
 
 	
@@ -150,11 +150,12 @@ h3 {
 		align-self: start;
 		margin: 0;
 		
+		
 	}
 	li {
 		list-style-type: none;
 		width:186px;
-		padding: 20px;
+		padding: 15px;
 		
 		
 	  }
