@@ -35,7 +35,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		color: var(--font-bg-color);
 		font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 		line-height: 1.2;
-		align-items: ;
+		
 	}
 
 	.pg-home {
@@ -72,7 +72,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 	figure {
 		width: 186px;
-		margin: 15px;
+		margin: 0;
 	}
 
 	figcaption{
@@ -134,20 +134,10 @@ h3 {
     
 }
 
-	.box {
-		max-width: 858px;	
-		align-items: center;	
-	}
-
-	
 	ul {
 		display:flex;
 		flex-wrap: wrap;
-		align-items: baseline;
-		flex-grow: 1;
-		flex-basis: 1;		
-		justify-content: space-between;
-		align-self: start;
+		justify-content: center;
 		margin: 0;
 		
 		
@@ -155,7 +145,7 @@ h3 {
 	li {
 		list-style-type: none;
 		width:186px;
-		padding: 15px;
+		padding: 0;
 		
 		
 	  }
@@ -163,6 +153,13 @@ h3 {
 	.addPerfil {
 		display: flex;
 		flex-direction: column;
+	}
+
+	@media (min-width: 900px) {
+		ul {
+			width: 858px;
+			justify-content: space-between;
+		}
 	}
 
 	
