@@ -98,7 +98,7 @@ button {
 	background-color: #1D307F;
 	border: 1px solid #1D307F;
 	display: flex;	
-	font-size: 2.5vw;
+	font-size: 2.5rem;
 	
 	
 	
@@ -109,7 +109,7 @@ button {
 h2 {
 		width: 100%;
 		color:var(--font-bg-color);;
-		font-size: 3.5vw;
+		font-size: 2.5rem;
 		text-align: center;
 }
 	.pg-home{
@@ -139,6 +139,7 @@ h3 {
 		flex-wrap: wrap;
 		justify-content: center;
 		margin: 0;
+		padding: 0;
 		
 		
 	}
@@ -159,6 +160,7 @@ h3 {
 		ul {
 			width: 858px;
 			justify-content: space-between;
+			
 		}
 	}
 
